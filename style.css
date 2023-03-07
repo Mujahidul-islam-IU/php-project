@@ -1,0 +1,92 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    background-color: gray;
+}
+.form-control{
+    min-height: 100vh;
+    background-color: var(--light-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.form-control form{
+    padding: 20px;
+    background-color:whitesmoke;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+    
+}
+.form-control form h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: black;
+    background-color: whitesmoke;
+}
+.form-control p a{
+    background-color: white;
+    color: red;
+}
+.form-control form .box{
+    width: 100%;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: black;
+    padding: 10px 12px;
+    background-color: aliceblue;
+}
+.message{
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+
+}
+.btn,.delete-btn{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin: 10px 0;
+}
+.btn{
+    background-color: rgb(79, 79, 197);
+}
+.btn:hover{
+    background-color: darkblue;
+}
+.delete-btn{
+    background-color: rgb(255, 51, 0);
+}
+.delete-btn:hover{
+    background-color: rgb(139, 0, 0);
+}
+
+.container .profile{
+    padding: 20px;
+    background-color:whitesmoke;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+}
+.container .profile img{
+    height: 150px;
+    width: 150px;
+
+
+}
